@@ -5,6 +5,10 @@ using UnityEngine;
 public class Siren : MonoBehaviour
 {
     private AudioSource _audioSource;
+    private float _volumeStep = 0.03f;
+    private float _maxVolume = 1f;
+    private float _minVolume = 0f;
+    private float _volumeShutdownThreshold = 0.02f;
 
     private void Awake()
     {
@@ -33,7 +37,7 @@ public class Siren : MonoBehaviour
     {
         while (_audioSource.volume != 1)
         {
-            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, 1, 0.01f);
+            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _maxVolume, _volumeStep);
             yield return null;
         }
     }
@@ -42,11 +46,11 @@ public class Siren : MonoBehaviour
     {
         while (_audioSource.volume >= 0.02)
         {
-            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, 0, 0.01f);
+            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _minVolume, _volumeStep);
             yield return null; 
         }
 
-        yield return new WaitUntil(() => _audioSource.volume <= 0.02);
+        yield return new WaitUntil(() => _audioSource.volume <= _volumeShutdownThreshold);
         _audioSource.Stop();
     }
 }
