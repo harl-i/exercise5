@@ -1,0 +1,325 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ru' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Unity\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+I:/UnityProjects/exercise5
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+56312
+Successfully changed project path to: I:/UnityProjects/exercise5
+I:/UnityProjects/exercise5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 189.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path F:/Unity/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path I:/UnityProjects/exercise5/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680 (ID=0x1180)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   30.0.14.7347
+Initialize mono
+Mono path[0] = 'F:/Unity/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008084 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 183.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1058ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (184ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012500 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\UnityProjects\exercise5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\UnityProjects\exercise5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 183.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.137 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2139ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1704ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (995ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (183ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (1.7 MB). Loaded Objects now: 6080.
+Memory consumption went from 221.3 MB to 219.6 MB.
+Total: 5.706800 ms (FindLiveObjects: 0.557500 ms CreateObjectMapping: 0.375700 ms MarkObjects: 3.895600 ms  DeleteObjects: 0.876900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 247296.354009 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Projectiles/Laser Beam.prefab
+  artifactKey: Guid(114496ea6de0e4bc7860a490da1844df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Projectiles/Laser Beam.prefab using Guid(114496ea6de0e4bc7860a490da1844df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa1d912534891c3f7e184c41b2b7d4b') in 0.527794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.195593 seconds.
+  path: Assets/LEGO/Scriptable Objects/Score.asset
+  artifactKey: Guid(9261f9ea2e9216c46ad193ed9d1a494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Scriptable Objects/Score.asset using Guid(9261f9ea2e9216c46ad193ed9d1a494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4b4f3f2f507c40ee1ee7222bfab7c9') in 0.085556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.818228 seconds.
+  path: Assets/LEGO/Textures/Skyboxes/Day Up.png
+  artifactKey: Guid(e6cdf437126914b299ee2ca26eae0b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Skyboxes/Day Up.png using Guid(e6cdf437126914b299ee2ca26eae0b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c183f2835ea154a62f78478b45ce69') in 0.066044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.445477 seconds.
+  path: Assets/LEGO/Textures/Particles/Smoke.png
+  artifactKey: Guid(0f5f0825349294ac9a66b20aa2e0aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Particles/Smoke.png using Guid(0f5f0825349294ac9a66b20aa2e0aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a358de77b9e8b68c76e308bb585824') in 0.040492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.737053 seconds.
+  path: Assets/LEGO/Tutorials/Tutorial Styles.asset
+  artifactKey: Guid(db2f0bb691502ff49a6b838dea16076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Tutorial Styles.asset using Guid(db2f0bb691502ff49a6b838dea16076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03394e4ba926702e50de6f0afc4b714') in 0.007279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010437 seconds.
+  path: Assets/LEGO/Tutorials/Tutorials.asset
+  artifactKey: Guid(977fb762f450240fd9006b8153a0f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Tutorials.asset using Guid(977fb762f450240fd9006b8153a0f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e78d697842fe5e5a8a2c00e983131a7') in 0.555272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.553632 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Control Action Side.png
+  artifactKey: Guid(e0f447de7cf2240b89e08bcc6b95fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Control Action Side.png using Guid(e0f447de7cf2240b89e08bcc6b95fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf8714919cad30985e5eead38120ac7') in 0.048228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Script Red.png
+  artifactKey: Guid(83a01249e4b48429b9b39414d11b9b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Script Red.png using Guid(83a01249e4b48429b9b39414d11b9b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ff2285b20720c3a3648539174f6f42') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Shoot Action Front.png
+  artifactKey: Guid(c34325e5385c347449e5f31e281d928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Shoot Action Front.png using Guid(c34325e5385c347449e5f31e281d928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cb774c557f49a623eaabccdfb9a25a') in 0.010704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Hazard Action Side.png
+  artifactKey: Guid(b1d47330e73b6442195814dd0bdc02a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Hazard Action Side.png using Guid(b1d47330e73b6442195814dd0bdc02a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5942385a7b90aa8986db3b8362b14ee1') in 0.011931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Move Action Side.png
+  artifactKey: Guid(930ef53f67d6641899566d3985314e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Move Action Side.png using Guid(930ef53f67d6641899566d3985314e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8da1ace1fd67238ced53ce3a0dab5e') in 0.060679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Hover Action Side.png
+  artifactKey: Guid(d1f3ac4faeb41455eab9560dfdcbcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Hover Action Side.png using Guid(d1f3ac4faeb41455eab9560dfdcbcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6f216f3c6c4b493e5c5487d3791b41') in 0.010914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Touch Trigger Side.png
+  artifactKey: Guid(ba658ad257bac4bb0b03042b0b68b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Touch Trigger Side.png using Guid(ba658ad257bac4bb0b03042b0b68b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828269652ffcbdeacc66fcab38934a67') in 0.011527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Look At Action Front.png
+  artifactKey: Guid(3df30dc118bb54ee4b130770c40ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Look At Action Front.png using Guid(3df30dc118bb54ee4b130770c40ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b887ad53c3a85615c7a70bc8f56a44') in 0.011128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Win Action Side.png
+  artifactKey: Guid(f0c34bcca44994241a9e3e24d891eb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Win Action Side.png using Guid(f0c34bcca44994241a9e3e24d891eb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a28248af2a554807fba67693332cb3') in 0.010420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Platform Action Side.png
+  artifactKey: Guid(b3d8a007d16e948debdd5ecf3900921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Platform Action Side.png using Guid(b3d8a007d16e948debdd5ecf3900921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bc86d893dfa9c0f4de091b19f292ed') in 0.010508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Explode Action Side.png
+  artifactKey: Guid(6135e8df4d2e34d85960dfa3b0e7869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Explode Action Side.png using Guid(6135e8df4d2e34d85960dfa3b0e7869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98705bf38f1784f472fcc972ef801489') in 0.010410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.815533 seconds.
+  path: Assets/LEGO/Textures/Stickers/Dynamite.png
+  artifactKey: Guid(1d958c14cc8f84881acf63472c7c93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Stickers/Dynamite.png using Guid(1d958c14cc8f84881acf63472c7c93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aa73cef9bcd52e256737dac22ceb01') in 0.778504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LEGO/Textures/Stickers/Treasure Map.png
+  artifactKey: Guid(1a5bcd36fbab145288d95e8668ce72cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Stickers/Treasure Map.png using Guid(1a5bcd36fbab145288d95e8668ce72cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2179c9504115ff1a849bf728b642c3c') in 0.550127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.053244 seconds.
+  path: Assets/LEGO/Textures/UI/Cross.png
+  artifactKey: Guid(35f64fb5ca7ca43cbb082242904a04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/UI/Cross.png using Guid(35f64fb5ca7ca43cbb082242904a04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466608f68d6f791843a56b3410e21de8') in 0.095584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LEGO/Textures/UI/Speech Bubble Think 2.png
+  artifactKey: Guid(8987a1bdba1e5e9478603333eabb3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/UI/Speech Bubble Think 2.png using Guid(8987a1bdba1e5e9478603333eabb3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57ab25d1b3dd51af7fb211f01fbe5a4') in 0.715720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.138148 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d614806.png
+  artifactKey: Guid(856495120eb07424bafaf678e2ca8b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d614806.png using Guid(856495120eb07424bafaf678e2ca8b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434b324c3cf7695fd2565634eb934eca') in 0.251356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643478.png
+  artifactKey: Guid(0e885f2f801bd42059f520f4b4f65bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643478.png using Guid(0e885f2f801bd42059f520f4b4f65bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d350bc3bbe5b77b97521b8caf4044f4') in 0.035707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d644727.png
+  artifactKey: Guid(ed27821cb6b024ecfbc66abbf8d65028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d644727.png using Guid(ed27821cb6b024ecfbc66abbf8d65028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff852424f648ac101aafb3c44a048f0') in 0.055218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643276.png
+  artifactKey: Guid(98e84c7eca56744e3b7f89ebff0946ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643276.png using Guid(98e84c7eca56744e3b7f89ebff0946ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e527ca5b9ecb9be1cf9611c060bebd') in 0.082541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/d643477.png
+  artifactKey: Guid(e49be3e571732430fa4004e3b35e5c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/d643477.png using Guid(e49be3e571732430fa4004e3b35e5c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3015e51acfab669406d99080bf060e32') in 0.092829 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
