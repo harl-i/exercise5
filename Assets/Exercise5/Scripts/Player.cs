@@ -8,12 +8,12 @@ public class Player : MonoBehaviour
     {
         if (other.TryGetComponent(out Button button))
         {
-            EventManager.SendButtonPress();
+            Door.OnButtonPress.Invoke();
         }
 
         if (other.TryGetComponent(out SecurityZone securityZone))
         {
-            EventManager.SendSecurityZoneEnter();
+            Siren.OnSecurityZoneEnter.Invoke();
         }
     }
 
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     {
         if (other.TryGetComponent(out SecurityZone securityZone))
         {
-            EventManager.SendSecurityZoneExit();
+            Siren.OnSecurityZoneExit.Invoke();
         }
     }
 }

@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Door : MonoBehaviour
 {
+    public static UnityEvent OnButtonPress = new UnityEvent(); 
+
     private float _targetDoorLift = 5f;
     private float _liftStep = 0.05f;
+
     private void Awake()
     {
-        EventManager.OnButtonPress.AddListener(OpenDoor);
+        OnButtonPress.AddListener(OpenDoor);
     }
 
     private void OpenDoor()
