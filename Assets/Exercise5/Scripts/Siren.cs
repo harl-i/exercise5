@@ -1,14 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 [RequireComponent(typeof(AudioSource))]
 public class Siren : MonoBehaviour
 {
-    public static UnityEvent OnSecurityZoneEnter = new UnityEvent();
-    public static UnityEvent OnSecurityZoneExit = new UnityEvent();
-
     private AudioSource _audioSource;
     private Coroutine _volumeToMax;
     private Coroutine _volumeToMin;
@@ -17,19 +13,13 @@ public class Siren : MonoBehaviour
     private float _minVolume = 0f;
     private float _volumeShutdownThreshold = 0.02f;
 
-    private void Awake()
-    {
-        OnSecurityZoneEnter.AddListener(PlaySiren);
-        OnSecurityZoneExit.AddListener(StopSiren);
-    }
-
     private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
         _audioSource.volume = 0;
     }
 
-    private void PlaySiren()
+    public void Play()
     {
         if (_volumeToMin != null)
         {
@@ -40,7 +30,7 @@ public class Siren : MonoBehaviour
         _volumeToMax = StartCoroutine(VolumeToMax());
     }
 
-    private void StopSiren()
+    public void Stop()
     {
         if (_volumeToMax != null)
         {
