@@ -15,7 +15,7 @@ I:/UnityProjects/exercise5
 -logFile
 Logs/AssetImportWorker8.log
 -srvPort
-56312
+53819
 Successfully changed project path to: I:/UnityProjects/exercise5
 I:/UnityProjects/exercise5
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ I:/UnityProjects/exercise5
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 196.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 183.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path F:/Unity/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004645 seconds.
+Registered in 0.005190 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 175.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 184.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
+- Completed reload, in  1.062 seconds
 Domain Reload Profiling:
-	ReloadAssembly (998ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (726ms)
-			LoadAssemblies (125ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (467ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (481ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (73ms)
+				InitializePlatformSupportModulesInManaged (77ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (176ms)
+				RefreshPlugins (185ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011811 seconds.
+Registered in 0.011883 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image I:\UnityProjects\exercise5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image I:\UnityProjects\exercise5\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 181.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 191.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.349 seconds
+- Completed reload, in  2.240 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2351ms)
-		BeginReloadAssembly (280ms)
+	ReloadAssembly (2241ms)
+		BeginReloadAssembly (305ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (1919ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1770ms)
+			LoadAssemblies (181ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
+			SetupTypeCache (442ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (1217ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (1011ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (182ms)
-				BeforeProcessingInitializeOnLoad (410ms)
-				ProcessInitializeOnLoadAttributes (477ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.72 seconds
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5653 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (1.7 MB). Loaded Objects now: 6080.
+Unloading 5654 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (1.7 MB). Loaded Objects now: 6081.
 Memory consumption went from 221.3 MB to 219.6 MB.
-Total: 5.717800 ms (FindLiveObjects: 0.634600 ms CreateObjectMapping: 0.416900 ms MarkObjects: 3.829000 ms  DeleteObjects: 0.835900 ms)
+Total: 6.521500 ms (FindLiveObjects: 0.636200 ms CreateObjectMapping: 0.403500 ms MarkObjects: 4.555200 ms  DeleteObjects: 0.925200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,48 +163,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 247354.843154 seconds.
-  path: Assets/LEGO/Textures/Stickers/Trophy.png
-  artifactKey: Guid(3b79b51386ebf4c81a9c271dfb3a9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LEGO/Textures/Stickers/Trophy.png using Guid(3b79b51386ebf4c81a9c271dfb3a9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d987c31ae02d109d3d64535ca54b195') in 0.501574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.653711 seconds.
-  path: Assets/LEGO/Textures/UI/Background With Outline.png
-  artifactKey: Guid(8e269321367fd406689f571c32a0e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LEGO/Textures/UI/Background With Outline.png using Guid(8e269321367fd406689f571c32a0e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c3979b005ea2f916b4d603ebc91774') in 0.107773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/LEGO/Textures/UI/Speech Bubble Talk.png
-  artifactKey: Guid(a0185ed1ed81744c69e82dea0e9124d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LEGO/Textures/UI/Speech Bubble Talk.png using Guid(a0185ed1ed81744c69e82dea0e9124d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c098ba23227df37038bd533b5d3b52') in 0.938871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.407965 seconds.
-  path: Assets/Settings/Default_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(845e9e04c2ef64318b4184bb45061702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Default_PipelineAsset_ForwardRenderer.asset using Guid(845e9e04c2ef64318b4184bb45061702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdbcf6d67dc479bf92e3aaaff3afd32') in 0.008059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.486854 seconds.
-  path: Assets/LEGO Data/Textures/Bodies/d90930.png
-  artifactKey: Guid(4e27df262c50d437f9228909b84d59fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LEGO Data/Textures/Bodies/d90930.png using Guid(4e27df262c50d437f9228909b84d59fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1be60e3d9bf0c9c79c8a43bdfea0cab') in 0.121455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/LEGO Data/Textures/Bodies/d639162.png
-  artifactKey: Guid(ef9863c3b61624fd19b462fd01867a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LEGO Data/Textures/Bodies/d639162.png using Guid(ef9863c3b61624fd19b462fd01867a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bcf5e361d9e84bea380df1aac13ad7') in 0.111566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/LEGO Data/Textures/Bodies/d622370.png
-  artifactKey: Guid(8206a380577834b82a45a6ef723f973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LEGO Data/Textures/Bodies/d622370.png using Guid(8206a380577834b82a45a6ef723f973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765d1f94eb22ce17f111924fcf79ef7f') in 0.246372 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

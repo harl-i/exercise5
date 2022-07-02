@@ -42,7 +42,7 @@ public class Siren : MonoBehaviour
 
     private IEnumerator VolumeToMax()
     {
-        while (_audioSource.volume != 1)
+        while (_audioSource.volume != _maxVolume)
         {
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _maxVolume, _volumeStep);
             yield return null;
@@ -51,7 +51,7 @@ public class Siren : MonoBehaviour
 
     private IEnumerator VolumeToMin()
     {
-        while (_audioSource.volume >= 0.02)
+        while (_audioSource.volume >= _minVolume)
         {
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _minVolume, _volumeStep);
             yield return null; 
