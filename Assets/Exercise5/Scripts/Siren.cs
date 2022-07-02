@@ -21,10 +21,11 @@ public class Siren : MonoBehaviour
 
     public void Play()
     {
-        if (_volumeToMin != null)
-        {
-            StopCoroutine(_volumeToMin);
-        }
+        //if (_volumeToMin != null)
+        //{
+        //    StopCoroutine(_volumeToMin);
+        //}
+        StopRunningCoroutine(_volumeToMin);
 
         _audioSource.Play();
         _volumeToMax = StartCoroutine(VolumeToMax());
@@ -32,10 +33,11 @@ public class Siren : MonoBehaviour
 
     public void Stop()
     {
-        if (_volumeToMax != null)
-        {
-            StopCoroutine(_volumeToMax);
-        }
+        //if (_volumeToMax != null)
+        //{
+        //    StopCoroutine(_volumeToMax);
+        //}
+        StopRunningCoroutine(_volumeToMax);
 
         _volumeToMin = StartCoroutine(VolumeToMin());
     }
@@ -44,7 +46,7 @@ public class Siren : MonoBehaviour
     {
         while (_audioSource.volume != _maxVolume)
         {
-            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _maxVolume, _volumeStep);
+            _audioSource.volume = ChangeVolume(_audioSource, _maxVolume, _volumeStep);
             yield return null;
         }
     }
@@ -53,11 +55,24 @@ public class Siren : MonoBehaviour
     {
         while (_audioSource.volume >= _minVolume)
         {
-            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _minVolume, _volumeStep);
+            _audioSource.volume = ChangeVolume(_audioSource, _minVolume, _volumeStep);
             yield return null; 
         }
 
         yield return new WaitUntil(() => _audioSource.volume <= _volumeShutdownThreshold);
         _audioSource.Stop();
+    }
+
+    private void StopRunningCoroutine(Coroutine coroutine)
+    {
+        if (coroutine != null)
+        {
+            StopCoroutine(coroutine);
+        }
+    }
+
+    private float ChangeVolume(AudioSource audioSource, float volumeLevel, float volumeStep)
+    {
+        return Mathf.MoveTowards(audioSource.volume, volumeLevel, volumeStep);
     }
 }
