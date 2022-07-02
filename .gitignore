@@ -35,3 +35,30 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# non exercise files
+Library
+Logs
+obj
+Packages
+ProjectSettings
+UserSettings
+.gitattributes
+.vsconfig
+Assembly-CSharp.csproj
+exercise5.sln
+InitCodeMarker
+Unity.LEGO.Behaviours.csproj
+Unity.LEGO.Editor.csproj
+Unity.LEGO.Game.csproj
+Unity.LEGO.Gameplay.csproj
+Unity.LEGO.Minifig.csproj
+Unity.LEGO.Tutorials.csproj
+Unity.LEGO.UI.csproj
+Unity.LEGO.Utilities.csproj
+Assets/LEGO
+Assets/LEGO Data
+Assets/Settings
+Assets/TextMesh Pro
+Assets/UniversalRenderPipelineGlobalSettings.asset
+Assets/*.meta
