@@ -21,10 +21,6 @@ public class Siren : MonoBehaviour
 
     public void Play()
     {
-        //if (_volumeToMin != null)
-        //{
-        //    StopCoroutine(_volumeToMin);
-        //}
         StopRunningCoroutine(_volumeToMin);
 
         _audioSource.Play();
@@ -33,10 +29,6 @@ public class Siren : MonoBehaviour
 
     public void Stop()
     {
-        //if (_volumeToMax != null)
-        //{
-        //    StopCoroutine(_volumeToMax);
-        //}
         StopRunningCoroutine(_volumeToMax);
 
         _volumeToMin = StartCoroutine(VolumeToMin());
